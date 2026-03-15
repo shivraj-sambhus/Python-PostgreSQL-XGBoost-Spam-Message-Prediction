@@ -1,2 +1,5 @@
 # Python-SQL-ETL-XGBoost-Spam-Message-Prediction-Model
-A machine learning project using an iterative approach to select an XGBoost model for text message (SMS) spam prediction based on unstructured data.
+
+![A receiver operating characteristic (ROC) curve that illustrates the accuracy of the XGBoost model used to predict whether an SMS is spam.](images/ROC Curve.png)
+
+
