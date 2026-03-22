@@ -6,7 +6,7 @@ A receiver operating characteristic (ROC) curve that illustrates the area under 
 
 # 1. Objective
 
-I want to build a predictive model that classifies a text message (SMS) as spam or not spam. In this project, I will use an unstructured text dataset from 2012 found on the UC Irvine machine learning repository that contains SMS data from students of the National University of Singapore. Since the text is unstructured, I will need to first extract meaningful features from it and create a structured version of it. I will do this by creating an ETL pipeline and loading it in PostgreSQL to generate a materialized view used in the predictive model. To select the final model, I will use an iterative approach involving logistic regression, decision trees, and an XGBoost model.
+I want to build a predictive model that classifies a text message (SMS) as spam or not spam. In this project, I will use an unstructured text dataset from 2012 found on the UC Irvine machine learning repository that contains SMS data from students of the National University of Singapore. Since the text is unstructured, I will need to first extract meaningful features from it and create a structured version of it. I will do this by creating an ETL pipeline and loading it in PostgreSQL to generate a materialized view used in the predictive model. To select the final model, I will use an iterative approach involving logistic regression, decision trees, and an XGBoost model. 
 
 Link to the data: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
